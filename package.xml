@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+  <name>mbot_simulation_environments</name>
+  <version>0.0.1</version>
+  <description>
+
+      This package is brought to you by:
+
+      - Instituto Superior Tecnico, Lisboa
+      - Institute for Systems and Robotics (ISR)
+      - Laboratório de Robótica e Sistemas em Engenharia e Ciência (LARSyS)
+      - SocRob RoboCup team
+      
+      Description:
+
+      MOnarCH robot (mbot) simulation environments with gazebo:
+      - ERL testbed apartment
+      - Almost empty apartment with one table on it
+
+  </description>
+
+  <maintainer email="olima@isr.tecnico.ulisboa.pt">Oscar Lima</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="olima@isr.tecnico.ulisboa.pt">Oscar Lima</author>
+  <author email="rodrigo.ventura@isr.ist.utl.pt">Rodrigo ventura</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_ros</run_depend>
+
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+  </export>
+
+</package>

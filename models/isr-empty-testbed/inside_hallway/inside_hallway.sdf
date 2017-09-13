@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name='inside_hallway'>
+    <link name='Wall'>
+      <collision name='Wall'>
+        <geometry>
+          <box>
+            <size>2.25 0.2 2.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall'>
+        <pose>0 0 1.25 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.25 0.2 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <pose>1.875 0.6 0 0 0 0 </pose>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name='outside_hallway'>
+    <link name='Wall_South'>
+      <visual name='Wall_South_Visual_0'>
+        <pose>-0.4375 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.125 0.2 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='Wall_South_Collision_0'>
+        <geometry>
+          <box>
+            <size>0.125 0.2 2.5</size>
+          </box>
+        </geometry>
+        <pose>-0.4375 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_South_Visual_1'>
+        <pose>0.4375 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.125 0.2 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='Wall_South_Collision_1'>
+        <geometry>
+          <box>
+            <size>0.125 0.2 2.5</size>
+          </box>
+        </geometry>
+        <pose>0.4375 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_South_Visual_2'>
+        <pose>0 0 2.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.75 0.2 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='Wall_South_Collision_2'>
+        <geometry>
+          <box>
+            <size>0.75 0.2 0.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 2.25 0 -0 0</pose>
+      </collision>
+    </link>
+    <pose>2.5 2.1 0 0 -0 0</pose>
+    <static>1</static>
+  </model>
+</sdf>

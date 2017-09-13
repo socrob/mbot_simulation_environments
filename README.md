@@ -19,3 +19,20 @@ This code was tested on Ubuntu 16.04 and ROS kinetic with Gazebo 7
 This is how the simulation looks like:
 
 ![alt ERL_gazebo_testbed](https://github.com/socrob/mbot_simulation_environments/blob/kinetic/doc/erl_testbed.png "ERL testbed")
+
+Installations instructions
+==========================
+
+Clone and compile the code into your catkin workspace:
+
+        git clone https://github.com/socrob/mbot_simulation_environments.git
+        catkin build
+        source ~/.bashrc
+
+Launch:
+
+        roslaunch mbot_simulation_environments load_environment_example.launch
+
+Enjoy!
+
+If errors, please report bugs by using the issues in this repository

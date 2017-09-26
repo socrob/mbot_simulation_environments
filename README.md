@@ -12,7 +12,7 @@ Brought to you by:
 
 To see a video of how the models were textured, you can see this youtube tutorial
 video [part1](https://www.youtube.com/watch?v=Xo2vIfcjfJw&lc=z23ls5sxhsvmzzlvyacdp435jacfcr5kh2ncmq1423xw03c010c)
-[part2](https://www.youtube.com/watch?v=5Jr1flkjQoU&t=19s):
+[part2](https://www.youtube.com/watch?v=5Jr1flkjQoU&t=19s)
 
 This code was tested on Ubuntu 16.04 and ROS kinetic with Gazebo 7
 

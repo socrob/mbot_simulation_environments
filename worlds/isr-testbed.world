@@ -125,6 +125,12 @@
             <pose>-1.81751 -0.866819 0 0 0 0</pose>
         </include-->
 
+        <!-- aruco marker 0 -->
+        <include>
+            <uri>file://isr-testbed/aruco_marker_0</uri>
+            <pose>1.5 1.96 0.8 0 0 -1.5707963267948966</pose>
+        </include>
+
     <!-- focus camera to view the whole testbed at startup -->
     <gui fullscreen='0'>
         <camera name='user_camera'>

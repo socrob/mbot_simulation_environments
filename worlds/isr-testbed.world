@@ -29,6 +29,12 @@
 
     <!-- :::   Models   ::: -->
 
+    	<!-- new -->
+        <include>
+            <uri>file://isr-testbed/pizza_box</uri>
+            <pose>0 1 0 0 0 0</pose>
+        </include>
+
         <!-- bed -->
         <include>
             <uri>file://isr-testbed/bed</uri>

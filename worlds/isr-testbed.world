@@ -29,12 +29,6 @@
 
     <!-- :::   Models   ::: -->
 
-        <!-- Mbot -->
-        <include>
-            <uri>file://isr-testbed/mbot</uri>
-            <pose>0 0 0 0 0 0</pose>
-        </include>
-
         <!-- Man resting side -->
         <include>
             <uri>file://isr-testbed/man_resting_side</uri>

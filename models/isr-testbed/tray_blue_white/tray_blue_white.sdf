@@ -1,10 +1,10 @@
 <sdf version='1.6'>
-  <model name='pizza_box'>
+  <model name='tray_blue_white'>
     <link name='base_link'>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.7</mass>
+        <mass>0.4</mass>
         <inertia>
           <ixx>1</ixx>
           <ixy>0</ixy>
@@ -15,10 +15,10 @@
         </inertia>
       </inertial>
       <collision name='base_link_collision'>
-        <pose frame=''>0 0 0.0175 0 -0 0</pose>
+        <pose frame=''>0 0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.41 0.6 0.035</size>
+            <size>0.23 0.3 0.016</size>
           </box>
         </geometry>
         <surface>
@@ -40,8 +40,8 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <scale>1 1 1</scale>
-            <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/pizza_box.dae</uri>
+            <scale>0.6 0.6 0.8</scale>
+            <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/tray_blue_white.dae</uri>
           </mesh>
         </geometry>
         <material>

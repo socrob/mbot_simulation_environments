@@ -29,10 +29,58 @@
 
     <!-- :::   Models   ::: -->
 
-    	<!-- new -->
+        <!-- Man resting side -->
+        <include>
+            <uri>file://isr-testbed/man_resting_side</uri>
+            <pose>-1.75 4.53 0.5 0 0 3.3</pose>
+        </include>
+
+        <!-- Pizza box -->
         <include>
             <uri>file://isr-testbed/pizza_box</uri>
-            <pose>0 1 0 0 0 0</pose>
+            <pose>2.0 -0.15 0.8 0 0 1</pose>
+        </include>
+
+        <!-- Tea box -->
+        <include>
+            <uri>file://isr-testbed/tea_box</uri>
+            <pose>-2.85 1 2 0 0 0</pose>
+        </include>
+
+        <!-- Basmati rice -->
+        <include>
+            <uri>file://isr-testbed/basmati_rice</uri>
+            <pose>-2.85 0.5 2 0 0 1</pose>
+        </include>
+
+        <!-- Shelf -->
+        <include>
+            <uri>file://isr-testbed/shelf</uri>
+            <pose>-2.85 1.0 0 0 0 1.56</pose>
+        </include>
+
+        <!-- Lamp ikea larstid -->
+        <include>
+            <uri>file://isr-testbed/lamp_ikea_arstid</uri>
+            <pose>-2.85 -2.0 0 0 0 1.56</pose>
+        </include>
+
+        <!-- Plant floor small -->
+        <include>
+            <uri>file://isr-testbed/plant_floor_small</uri>
+            <pose>-2.8 -3.0 0 0 0 1.56</pose>
+        </include>
+
+        <!-- Apple Juice box -->
+        <include>
+            <uri>file://isr-testbed/apple_juice_box</uri>
+            <pose>-2.85 1.5 2 0 0 0</pose>
+        </include> 
+
+        <!-- Table bedside -->
+        <include>
+            <uri>file://isr-testbed/table_bedside</uri>
+            <pose>-2 1.5 0 0 0 0</pose>
         </include>
 
         <!-- bed -->
@@ -44,10 +92,18 @@
         <!-- bedroom nightstand -->
         <include>
             <uri>file://isr-testbed/bedroom_nightstand</uri>
-            <pose>-0.752607 5.03713 0 0 0 0</pose>
+            <name>nightstand1</name>
+            <pose>-0.88 5.0 0 0 0 0</pose>
         </include>
 
-        <!-- dinning room table -->
+        <!-- bedroom nightstand 2-->
+        <include>
+            <uri>file://isr-testbed/bedroom_nightstand</uri>
+            <name>nightstand2</name>
+            <pose>-2.89 5.03713 0 0 0 0</pose>
+        </include>
+
+        <!-- dinning room table  -->
         <include>
             <uri>file://isr-testbed/dinning_room_table</uri>
             <pose>2.05802 -2.30976 0 0 0 0</pose>
@@ -55,8 +111,26 @@
 
         <!-- kitchen table -->
         <include>
-            <uri>file://isr-testbed/kitchen_table</uri>
-            <pose>2.22757 -0.156695 0 0 0 -1.56643</pose>
+            <uri>file://isr-testbed/table_living_room</uri>
+            <pose>2.0 -0.156695 0 0 0 -1.56643</pose>
+        </include>
+
+        <!-- Kitchen cabinet -->
+        <include>
+            <uri>file://isr-testbed/cabinet_diamondback</uri>
+            <pose>0.91 1.69 0 0 0 -1.56643</pose>
+        </include>
+
+        <!-- Kitchen cabinet 2-->
+        <include>
+            <uri>file://isr-testbed/cabinet_ikea_galant</uri>
+            <pose>1.80 1.68 0 0 0 0</pose>
+        </include>
+
+        <!-- Kitchen cabinet Plate  -->
+        <include>
+            <uri>file://isr-testbed/tray_blue_white</uri>
+            <pose>2.12 1.67 1.5 0 0 -1.54</pose>
         </include>
 
         <!-- erl board which goes on top of kitchen table for FBM1 test -->
@@ -68,31 +142,36 @@
         <!-- simple chair 1D (used in dinning room) -->
         <include>
             <uri>file://isr-testbed/simple_chair</uri>
-            <pose>1.9173 -3.05005 0 0 0 0</pose>
+            <name>chair_dinning_room_1</name>
+            <pose>1.91 -3.05 0 0 0 0</pose>
         </include>
 
         <!-- simple chair 2D (used in dinning room) -->
         <include>
             <uri>file://isr-testbed/simple_chair</uri>
-            <pose>2.9579 -2.52947 0 0 0 1.54796</pose>
+            <name>chair_dinning_room_2</name>
+            <pose>2.96 -2.52 0 0 0 1.54796</pose>
         </include>
 
         <!-- simple chair 1K (used in kitchen) -->
         <include>
             <uri>file://isr-testbed/simple_chair</uri>
-            <pose>2.67016 -0.653975 0 0 0 1.57173</pose>
+            <name>chair_kitchen_1</name>
+            <pose>1.57 -0.98 0 0 0 0</pose>
         </include>
 
         <!-- simple chair 2K (used in kitchen) -->
         <include>
             <uri>file://isr-testbed/simple_chair</uri>
-            <pose>1.30118 -0.450103 0 0 0 -1.57778</pose>
+            <name>chair_kitchen_2</name>
+            <pose>2.26 -0.97 0 0 0 0</pose>
         </include>
 
         <!-- simple chair 3K (used in kitchen) -->
         <include>
             <uri>file://isr-testbed/simple_chair</uri>
-            <pose>2.67594 0.116809 0 0 0 1.59532</pose>
+            <name>chair_kitchen_3</name>
+            <pose>2.88 -0.26 0 0 0 1.59</pose>
         </include>
 
         <!-- sofa -->
@@ -104,12 +183,14 @@
         <!-- TV chair 1 -->
         <include>
             <uri>file://isr-testbed/tv_chair</uri>
+            <name>chair1</name>
             <pose>-0.99568 -2.19529 0 0 0 -1.7169</pose>
         </include>
 
         <!-- TV chair 2 -->
         <include>
             <uri>file://isr-testbed/tv_chair</uri>
+            <name>chair2</name>
             <pose>-0.951652 0.416699 0 0 0 -1.39202</pose>
         </include>
 

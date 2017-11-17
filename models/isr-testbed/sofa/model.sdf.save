@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='tv_table'>
+  <model name='sofa'>
     <link name='link_0'>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <inertial>
@@ -18,7 +18,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>file://isr-testbed/tv_table/tv_table.dae</uri>
+            <uri>file://isr-testbed/sofa/sofa.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -42,7 +42,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>file://isr-testbed/tv_table/tv_table.dae</uri>
+            <uri>model://isr-testbed/sofa/sofa.dae</uri>
           </mesh>
         </geometry>
         <surface>
@@ -92,7 +92,7 @@
         </surface>
       </collision>
     </link>
-    <static>1</static>
+    <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
   </model>
 </sdf>

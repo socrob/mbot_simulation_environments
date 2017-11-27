@@ -93,7 +93,7 @@
         <include>
             <uri>file://isr-testbed/bedroom_nightstand</uri>
             <name>nightstand1</name>
-            <pose>-0.88 5.0 0 0 0 0</pose>
+            <pose>-0.69 5.0 0 0 0 0</pose>
         </include>
 
         <!-- bedroom nightstand 2-->

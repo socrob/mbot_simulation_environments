@@ -92,7 +92,7 @@
         </surface>
       </collision>
     </link>
-    <static>1</static> <!--was 0 before! -->
-    <allow_auto_disable>1</allow_auto_disable>
+    <static>0</static>
+    <allow_auto_disable>0</allow_auto_disable>
   </model>
 </sdf>

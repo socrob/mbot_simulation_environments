@@ -28,12 +28,12 @@
     </include>
 
     <!-- :::   Models   ::: -->
-
-        <!-- Man resting side -->
+        
+        <!-- Man -->
         <include>
-            <uri>file://isr-testbed/man_resting_side</uri>
-            <pose>-1.75 4.53 0.5 0 0 3.3</pose>
-        </include>
+            <uri>file://isr-testbed/homem</uri>
+            <pose>-1.9 2.7 0 0 0 1</pose>
+        </include> 
 
         <!-- Pizza box -->
         <include>

@@ -14,12 +14,30 @@
           <izz>1</izz>
         </inertia>
       </inertial>
-      <collision name='base_link_collision'>
-        <pose frame=''>0 0 0.28 0 -0 0</pose>
+      <collision name='column_lamp'>
+        <pose frame=''>0 0 0.42 0 -0 0</pose>
         <geometry>
           <cylinder>
-            <radius>.15</radius>
-            <length>1.8</length>
+            <radius>.03</radius>
+            <length>0.8</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_lamp'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>.18</radius>
+            <length>0.02</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='top_lamp'>
+        <pose frame=''>0 0 0.9 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.13</radius>
+            <length>0.50</length>
           </cylinder>
         </geometry>
       </collision>
@@ -33,6 +51,6 @@
         </geometry>
       </visual>
     </link>
-    <static>1</static>
+    <static>0</static>
   </model>
 </sdf>

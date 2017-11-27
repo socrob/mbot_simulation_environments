@@ -2,20 +2,20 @@
 <sdf version='1.6'>
   <model name='bed'>
     <link name='link_0'>
-      <pose frame=''>-1.4 -8.0 0 0 0 0</pose>
+      <pose frame=''>0 0 0 0 -0 0</pose>
       <inertial>
         <mass>30</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>1</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>1</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>1</izz>
         </inertia>
       </inertial>
       <visual name='visual'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>-1.35 -8 -0.3 0 -0 -0</pose>
         <geometry>
           <mesh>
             <uri>file://isr-testbed/bed/bed.dae</uri>
@@ -28,11 +28,11 @@
       <collision name='collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0.2 0 0 0 -0 0</pose>
         <geometry>
-          <mesh>
-            <uri>file://isr-testbed/bed/bed.dae</uri>
-          </mesh>
+          <box>
+            <size>1.6 2.2 0.6</size>
+          </box>
         </geometry>
         <surface>
           <friction>
@@ -81,7 +81,7 @@
         </surface>
       </collision>
     </link>
-    <static>1</static> <!-- center has an offset so will not behave properly if this is set to 0 -->
+    <static>0</static> <!-- center has an offset so will not behave properly if this is set to 0 -->
     <allow_auto_disable>1</allow_auto_disable>
   </model>
 </sdf>

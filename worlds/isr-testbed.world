@@ -28,12 +28,18 @@
     </include>
 
     <!-- :::   Models   ::: -->
-        
+
         <!-- Man -->
         <include>
             <uri>file://isr-testbed/homem</uri>
-            <pose>-1.9 2.7 0 0 0 1</pose>
-        </include> 
+            <pose>-2.1 -2.42 0 0 0 1.87</pose>
+        </include>
+
+        <!-- Wardrobe -->
+        <include>
+            <uri>file://isr-testbed/wardrobe</uri>
+            <pose>-2.65 2.44 0 1.57 0 1.57</pose>
+        </include>
 
         <!-- Pizza box -->
         <include>
@@ -75,7 +81,7 @@
         <include>
             <uri>file://isr-testbed/apple_juice_box</uri>
             <pose>-2.85 1.5 2 0 0 0</pose>
-        </include> 
+        </include>
 
         <!-- Table bedside -->
         <include>

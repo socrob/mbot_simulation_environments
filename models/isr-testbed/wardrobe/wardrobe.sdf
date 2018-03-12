@@ -24,10 +24,10 @@
         </geometry>
       </visual>
       <collision name='base_link_visual'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 1.1 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1 1 1</size>
+            <size>1 2 0.72</size>
           </box>
         </geometry>
       </collision>

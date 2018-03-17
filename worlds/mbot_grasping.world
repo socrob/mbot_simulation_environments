@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+
+<!-- Instituto Superior Tecnico [2017] -->
+
+<world name="isr-testbed">
+
+    <!-- enable/disable shadows, control ambient light -->
+    <scene>
+        <ambient>0.4 0.4 0.4 1.0</ambient>
+        <shadows>0</shadows>
+    </scene>
+
+    <!-- ground -->
+    <include>
+        <uri>model://ground_plane</uri>
+        <material>
+            <script>
+                <uri>file://media/materials/scripts/gazebo.material</uri>
+                <name>Gazebo/Orange</name>
+            </script>
+        </material>
+    </include>
+
+    <!-- Global light source -->
+    <include>
+        <uri>model://sun</uri>
+    </include>
+
+    <!-- Set intial camera pose -->
+    <gui fullscreen='0'>
+        <camera name='user_camera'>
+            <pose frame=''>2.766084 1.574471 1.533104 0.0 0.439643 -2.734993</pose>
+            <view_controller>orbit</view_controller>
+            <projection_type>perspective</projection_type>
+        </camera>
+    </gui>
+
+    <!-- :::   Models   ::: -->
+
+    <!-- Table bedside -->
+    <!--<include>
+        <uri>file://isr-testbed/table_bedside</uri>
+        <pose>1.13 0.5785 0.0 0.0 0.0 0.0</pose>
+    </include>-->
+    
+    <!-- Tea box -->
+    <!--include>
+        <uri>file://isr-testbed/tea_box</uri>
+        <pose>1.072782 0.511712 0.529551 1.570797 0.0 0.633890</pose>
+    </include-->
+
+    <!-- Apple Juice box -->
+    <!--include>
+        <uri>file://isr-testbed/apple_juice_box</uri>
+        <pose>1.077292 0.649287 0.570550 0.0 -0.000004 -0.180385</pose>
+    </include-->
+
+    <!-- test tube for grasping -->
+    <include>
+        <uri>file://isr-testbed/grasping_tube</uri>
+        <pose>1.077292 0.649287 0.570550 0.0 -0.000004 -0.180385</pose>
+    </include>
+
+    <!-- recommended parameters for grasping, as suggested in: -->
+    <!-- http://answers.gazebosim.org/question/14887/object-slips-out-of-gripper-gazebo-7-ur5-robotiq-3-finger/ -->
+<!--    <physics type="ode">
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>100</iters>
+          <precon_iters>0</precon_iters>
+          <sor>1.000000</sor>
+        </solver>
+        <constraints>
+          <cfm>0.000000</cfm>
+          <erp>0.500000</erp>
+          <contact_max_correcting_vel>1000.000000</contact_max_correcting_vel>
+          <contact_surface_layer>0.00000</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>-->
+    
+</world>
+</sdf>

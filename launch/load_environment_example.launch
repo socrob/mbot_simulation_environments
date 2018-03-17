@@ -3,11 +3,11 @@
 
     <!-- NOTE: this is an example launch file, please do not modify! -->
 
-    <!-- launch a gazebo environment -->
+    <!-- select a gazebo environment to be launched -->
 
     <!-- set the desired robot world -->
-    <arg name="world_name" default="isr-testbed.world" /> <!-- set to "empty.world" for empty world -->
-    <arg name="world_path" default="$(find mbot_simulation_environments)/worlds/" /> <!-- set to "worlds" for empty world -->
+    <arg name="world_name" default="isr-testbed.world" /> <!-- other options: empty.world, mbot_grasping.world -->
+    <arg name="world_path" default="$(find mbot_simulation_environments)/worlds/" />
 
     <!-- to enable/disable gazebo gui (saves resources if you set this to false) -->
     <arg name="gazebo_gui" default="true" />

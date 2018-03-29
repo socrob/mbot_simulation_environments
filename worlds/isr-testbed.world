@@ -86,7 +86,7 @@
         <!-- Apple Juice box -->
         <include>
             <uri>file://isr-testbed/apple_juice_box</uri>
-            <pose>-2.85 1.5 2 0 0 0</pose>
+            <pose>-1.98 1.5 0.57 0 0 0</pose>
         </include>
 
         <!-- Table bedside -->

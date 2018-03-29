@@ -6,13 +6,14 @@
       <pose frame=''>0 0 0 0 -0 0</pose>
       <inertial>
         <mass>20</mass>
+        <pose frame=''>0.05 0.02 0.35 0 0 0</pose>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>6.5189973924</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>2.3789990484</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>7.0229971908</izz>
         </inertia>
       </inertial>
       <visual name='visual'>
@@ -40,7 +41,7 @@
       <collision name='collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0.05 0 0.25 0 0 0</pose>
+        <pose frame=''>0.05 0 0.2 0 0 0</pose>
         <geometry>
           <box>
             <size>0.93 1.83 0.37</size>

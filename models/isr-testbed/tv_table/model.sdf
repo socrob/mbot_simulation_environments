@@ -4,14 +4,15 @@
     <link name='link_0'>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <inertial>
-        <mass>20</mass>
+        <pose frame=''>-0.05 0.05 0.2 0 -0 0</pose>
+        <mass>30</mass>
         <inertia>
-          <ixx>1</ixx>
+          <ixx>7.4312470275</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>1</iyy>
+          <iyy>1.02499959</iyy>
           <iyz>0</iyz>
-          <izz>1</izz>
+          <izz>7.2062471175</izz>
         </inertia>
       </inertial>
       <visual name='visual'>

@@ -6,12 +6,12 @@
       <inertial>
         <mass>1</mass>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>0</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>0</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0</izz>
         </inertia>
       </inertial>
       <visual name='visual'>

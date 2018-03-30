@@ -5,16 +5,17 @@ such as removing harcoded paths and material script tag to load mesh UV mapping 
 <sdf version='1.6'>
   <model name='tv_chair'>
     <link name='link_0'>
-      <pose frame=''>0 0 0 0 -0 0</pose>
+      <pose frame=''>0 0 0 0 0 0</pose>
       <inertial>
-        <mass>3</mass>
+        <mass>10</mass>
+        <pose frame=''>0 0 0.5 0 0 0</pose>
         <inertia>
-          <ixx>0.166667</ixx>
+          <ixx>1.0833329</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.166667</iyy>
+          <iyy>1.0833329</iyy>
           <iyz>0</iyz>
-          <izz>0.166667</izz>
+          <izz>0.81666634</izz>
         </inertia>
       </inertial>
       <visual name='visual'>

@@ -31,6 +31,7 @@
   <run_depend>gazebo_ros</run_depend>
 
   <export>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
     <gazebo_ros gazebo_media_path="${prefix}"/>
   </export>
 

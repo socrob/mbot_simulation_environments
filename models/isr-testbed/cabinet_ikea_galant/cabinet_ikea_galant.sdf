@@ -6,12 +6,12 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <mass>20</mass>
         <inertia>
-          <ixx>1</ixx>
+          <ixx>3.389998644</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>1</iyy>
+          <iyy>5.7206643784</iyy>
           <iyz>0</iyz>
-          <izz>1</izz>
+          <izz>3.3026653456</izz>
         </inertia>
       </inertial>
       <collision name='base_link_collision'>

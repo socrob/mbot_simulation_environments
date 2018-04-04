@@ -31,6 +31,12 @@
             <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/shelf.stl</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/WoodPallet</name>
+          </script>
+        </material>
       </visual>
     </link>
     <static>1</static>

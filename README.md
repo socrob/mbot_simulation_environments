@@ -1,14 +1,14 @@
-mbot_simulation_environments
+ISR testbed simulated environment
 ============================
 
-Gazebo European Robotics League (ERL) arena simulation environment.
+Gazebo 7 based simulated apartment used during [European Robotics League (ERL)](https://www.eu-robotics.net/robotics_league).
 
 Brought to you by:
 
 - Instituto Superior Tecnico, Lisboa
 - Institute for Systems and Robotics (ISR)
 - Laboratório de Robótica e Sistemas em Engenharia e Ciência (LARSyS)
-- SocRob RoboCup team
+- [SocRob RoboCup team](http://socrob.isr.tecnico.ulisboa.pt)
 
 To see a video of how the models were textured, you can see this youtube tutorial
 video [part1](https://www.youtube.com/watch?v=Xo2vIfcjfJw&lc=z23ls5sxhsvmzzlvyacdp435jacfcr5kh2ncmq1423xw03c010c)
@@ -29,11 +29,11 @@ Clone and compile the code into your catkin workspace:
         catkin build
         source ~/.bashrc
 
-Launch:
+Launch only the environment:
 
         roslaunch mbot_simulation_environments load_environment_example.launch
 
-Sample Launch file to spawn your own robot in this:
+We provide with the following sample Launch file to spawn your own robot inside our ISR tesbed - apartment:
 
 ```
 <?xml version="1.0"?>

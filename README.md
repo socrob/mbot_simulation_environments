@@ -18,7 +18,7 @@ This code was tested on Ubuntu 16.04 and ROS kinetic with Gazebo 7
 
 This is how the simulation looks like:
 
-![alt ERL_gazebo_testbed](https://github.com/socrob/mbot_simulation_environments/blob/kinetic/doc/erl_testbed.png "ERL testbed")
+![alt ERL_gazebo_testbed](https://github.com/socrob/mbot_simulation_environments/blob/kinetic/doc/erl_testbed.jpg "ERL testbed")
 
 Installations instructions
 ==========================

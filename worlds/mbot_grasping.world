@@ -39,10 +39,10 @@
     <!-- :::   Models   ::: -->
 
     <!-- Table bedside -->
-    <!--<include>
+    <include>
         <uri>file://isr-testbed/table_bedside</uri>
         <pose>1.13 0.5785 0.0 0.0 0.0 0.0</pose>
-    </include>-->
+    </include>
     
     <!-- Tea box -->
     <!--include>
@@ -51,35 +51,10 @@
     </include-->
 
     <!-- Apple Juice box -->
-    <!--include>
-        <uri>file://isr-testbed/apple_juice_box</uri>
-        <pose>1.077292 0.649287 0.570550 0.0 -0.000004 -0.180385</pose>
-    </include-->
-
-    <!-- test tube for grasping -->
     <include>
-        <uri>file://isr-testbed/grasping_tube</uri>
+        <uri>file://isr-testbed/apple_juice_box</uri>
         <pose>1.077292 0.649287 0.570550 0.0 -0.000004 -0.180385</pose>
     </include>
 
-    <!-- recommended parameters for grasping, as suggested in: -->
-    <!-- http://answers.gazebosim.org/question/14887/object-slips-out-of-gripper-gazebo-7-ur5-robotiq-3-finger/ -->
-<!--    <physics type="ode">
-      <ode>
-        <solver>
-          <type>quick</type>
-          <iters>100</iters>
-          <precon_iters>0</precon_iters>
-          <sor>1.000000</sor>
-        </solver>
-        <constraints>
-          <cfm>0.000000</cfm>
-          <erp>0.500000</erp>
-          <contact_max_correcting_vel>1000.000000</contact_max_correcting_vel>
-          <contact_surface_layer>0.00000</contact_surface_layer>
-        </constraints>
-      </ode>
-    </physics>-->
-    
 </world>
 </sdf>

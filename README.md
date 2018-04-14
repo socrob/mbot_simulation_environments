@@ -5,9 +5,9 @@ Gazebo 7 based simulated apartment used during [European Robotics League (ERL)](
 
 Brought to you by:
 
-- Instituto Superior Tecnico, Lisboa
-- Institute for Systems and Robotics (ISR)
-- Laboratório de Robótica e Sistemas em Engenharia e Ciência (LARSyS)
+- [Instituto Superior Tecnico, Lisboa](http://welcome.isr.tecnico.ulisboa.pt/)
+- [Institute for Systems and Robotics (ISR)](http://welcome.isr.tecnico.ulisboa.pt/)
+- [Laboratório de Robótica e Sistemas em Engenharia e Ciência (LARSyS)](http://larsys.pt/)
 - [SocRob RoboCup team](http://socrob.isr.tecnico.ulisboa.pt)
 
 To see a video of how the models were textured, you can see this youtube tutorial

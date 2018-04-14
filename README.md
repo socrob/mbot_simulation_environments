@@ -57,9 +57,9 @@ We provide with the following sample Launch file to spawn your own robot inside 
     <param name="robot_description"
            command="$(find xacro)/xacro --inorder $(find your_robot_description)/xacro/my_robot_urdf.urdf.xacro" />
     
-    <!-- spawn mbot (in a certain position and with a default arm configuration) -->
+    <!-- spawn robot (in a certain position and with a default arm configuration) -->
     <node pkg="gazebo_ros" type="spawn_model" name="mbot_spawner"
-          args="-package_to_model -urdf -model mbot -param robot_description -x 0.5 -y 0.5 -z 0.01
+          args="-package_to_model -urdf -model my_robot_name -param robot_description -x 0.5 -y 0.5 -z 0.01
           -J left_arm_joint0 0.0
           -J left_arm_joint1 1.18
           -J left_arm_joint2 0.12

@@ -27,11 +27,17 @@
         <uri>model://sun</uri>
     </include>
 
-    <!-- walls -->
+    <!-- Walls -->
     <include>
         <uri>file://isr-testbed/walls</uri>
         <pose>0.491830 0.433522 0 0 0 0</pose>
     </include>
+
+    <!-- Floor -->
+    <!--include>
+        <uri>file://isr-testbed/floor</uri>
+        <pose>0 1.0 0 0 0 0</pose>
+    </include-->
 
     <!-- :::   Models   ::: -->
 

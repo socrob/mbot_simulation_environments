@@ -38,22 +38,16 @@
 
     <!-- :::   Models   ::: -->
 
-    <!-- Table bedside -->
+    <!-- front table from where objects will be grasped -->
     <include>
         <uri>file://isr-testbed/table_bedside</uri>
         <pose>1.13 0.5785 0.0 0.0 0.0 0.0</pose>
     </include>
     
     <!-- Tea box -->
-    <!--include>
-        <uri>file://isr-testbed/tea_box</uri>
-        <pose>1.072782 0.511712 0.529551 1.570797 0.0 0.633890</pose>
-    </include-->
-
-    <!-- Apple Juice box -->
     <include>
-        <uri>file://isr-testbed/apple_juice_box</uri>
-        <pose>1.077292 0.649287 0.570550 0.0 -0.000004 -0.180385</pose>
+        <uri>file://isr-testbed/tea_box</uri>
+        <pose>1.091789 0.634150 0.529551 1.570795 0 0.247593</pose>
     </include>
 
 </world>

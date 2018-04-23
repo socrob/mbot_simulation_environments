@@ -80,10 +80,22 @@
             <pose>-2.85 1 2 0 0 0</pose>
         </include>
 
-        <!-- Basmati rice -->
+        <!-- Basmati rice >
         <include>
             <uri>file://isr-testbed/basmati_rice</uri>
             <pose>-2.85 0.5 2 0 0 1</pose>
+        </include-->
+
+        <!-- Beer -->
+        <include>
+            <uri>file://isr-testbed/beer</uri>
+            <pose>-2.85 0.5 2 0 0 1</pose>
+        </include>
+
+        <!-- Coke_can -->
+        <include>
+            <uri>file://isr-testbed/coke_can</uri>
+            <pose>-2.85 1.2 2 0 0 1</pose>
         </include>
 
         <!-- Shelf -->
@@ -107,7 +119,7 @@
         <!-- Apple Juice box -->
         <include>
             <uri>file://isr-testbed/apple_juice_box</uri>
-            <pose>-1.98 1.5 0.57 0 0 0</pose>
+            <pose>-2.84 1.64 2 0 0 0</pose>
         </include>
 
         <!-- Table bedside -->

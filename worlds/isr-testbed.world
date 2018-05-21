@@ -80,22 +80,16 @@
             <pose>-2.85 1 2 0 0 0</pose>
         </include>
 
-        <!-- Basmati rice >
-        <include>
-            <uri>file://isr-testbed/basmati_rice</uri>
-            <pose>-2.85 0.5 2 0 0 1</pose>
-        </include-->
-
         <!-- Beer -->
         <include>
             <uri>file://isr-testbed/beer</uri>
-            <pose>-2.85 0.5 2 0 0 1</pose>
+            <pose>-2.85 0.5 1 0 0 1</pose>
         </include>
 
         <!-- Coke_can -->
         <include>
             <uri>file://isr-testbed/coke_can</uri>
-            <pose>-2.85 1.2 2 0 0 1</pose>
+            <pose>-2.85 1.2 1 0 0 1</pose>
         </include>
 
         <!-- Shelf -->
@@ -119,7 +113,7 @@
         <!-- Apple Juice box -->
         <include>
             <uri>file://isr-testbed/apple_juice_box</uri>
-            <pose>-2.84 1.64 2 0 0 0</pose>
+            <pose>-2.84 1.64 1 0 0 0</pose>
         </include>
 
         <!-- Table bedside -->
@@ -175,7 +169,7 @@
         <!-- Kitchen cabinet Plate  -->
         <include>
             <uri>file://isr-testbed/tray_blue_white</uri>
-            <pose>2.12 1.67 1.5 0 0 -1.54</pose>
+            <pose>2.12 1.67 1 0 0 -1.54</pose>
         </include>
 
         <!-- erl board which goes on top of kitchen table for FBM1 test -->

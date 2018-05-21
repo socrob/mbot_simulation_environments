@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
-<sdf version="1.5">
+<?xml version='1.0'?>
+<sdf version='1.4'>
   <model name="beer">
-    <link name="link">
-      <pose>0 0 0.115 0 0 0</pose>
+    <link name='link'>
+      <pose>0 0 0 0 0 0</pose>
       <inertial>
         <mass>0.390</mass>
         <inertia>
@@ -11,24 +11,26 @@
           <ixz>0</ixz>
           <iyy>0.00058</iyy>
           <iyz>0</iyz>
-          <izz>0.00019</izz>
+          <izz>0.00025</izz>
         </inertia>
       </inertial>
-      <collision name="collision">
+      <collision name='collision'>
         <geometry>
           <cylinder>
-            <radius>0.0025000</radius>
-            <length>0.0100000</length>
+            <radius>0.03500</radius>
+            <length>0.12000</length>
           </cylinder>
         </geometry>
       </collision>
-      <visual name="visual">
+
+      <visual name='visual'>
         <geometry>
           <cylinder>
-            <radius>0.0025000</radius>
-            <length>0.0100000</length>
+            <radius>0.03500</radius>
+            <length>0.12000</length>
           </cylinder>
         </geometry>
+
         <material>
           <script>
             <uri>model://beer/materials/scripts</uri>
@@ -37,6 +39,6 @@
           </script>
         </material>
       </visual>
-    </link>
+    </link>     
   </model>
 </sdf>

@@ -10,16 +10,15 @@
           <ixz>0</ixz>
           <iyy>0.4</iyy>
           <iyz>0</iyz>
-          <izz>0.1</izz>
+          <izz>0.3</izz>
         </inertia>
       </inertial>
       <collision name='base_link_collision'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0.2 0 -0 0</pose>
         <geometry>
-          <mesh>
-            <scale>1 1 1</scale>
-            <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/table_bedside.dae</uri>
-          </mesh>
+          <box>
+            <size>0.6 0.6 0.4</size>
+          </box>
         </geometry>
         <surface>
           <contact>
@@ -40,7 +39,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <scale>1 1 1</scale>
+            <scale>1.7 1.7 0.9</scale>
             <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/table_bedside.dae</uri>
           </mesh>
         </geometry>

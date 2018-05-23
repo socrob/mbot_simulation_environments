@@ -96,6 +96,13 @@
             <pose>3.03 8.33 0 0 0 0</pose>
         </include>
 
+        <!-- Table -->
+        <include>
+            <name>table_outside</name>
+            <uri>file://isr-testbed/cafe_table</uri>
+            <pose>-5.25 3.77 0 0 0 0</pose>
+        </include>
+
         <!-- Fire Hydrant 1 -->
         <include>
             <name>hydrant1</name>
@@ -124,11 +131,18 @@
             <pose>-9.11 6.25 0 0 0 0</pose>
         </include>
 
-        <!-- Man -->
+        <!-- Person >
         <include>
             <name>human</name>
             <uri>file://isr-testbed/homem</uri>
             <pose>-0.57 -3.92 0 0 0 2.12</pose>
+        </include -->
+ 
+        <!-- Person -->
+        <include>
+            <name>human</name>
+            <uri>file://isr-testbed/person_standing</uri>
+            <pose>-2.04 2.41 0 0 0 0</pose>
         </include>
 
         <!-- Wardrobe -->
@@ -312,14 +326,14 @@
         <include>
             <uri>file://isr-testbed/tv_chair</uri>
             <name>chair1</name>
-            <pose>-0.73 -2.20 0 0 0 -1.57</pose>
+            <pose>-0.73 -2.05 0 0 0 -1.57</pose>
         </include>
 
         <!-- TV chair 2 -->
         <include>
             <uri>file://isr-testbed/tv_chair</uri>
             <name>chair2</name>
-            <pose>-0.73 0.40 0 0 0 -1.57</pose>
+            <pose>-0.73 0.57 0 0 0 -1.57</pose>
         </include>
 
         <!-- TV -->

@@ -18,7 +18,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.029 0.122 0.17</size>
+            <size>0.041 0.122 0.17</size>
           </box>
         </geometry>
         <surface>
@@ -40,7 +40,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <scale>1 1 1</scale>
+            <scale>1.5 1 1</scale>
             <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/basmati_rice.dae</uri>
           </mesh>
         </geometry>

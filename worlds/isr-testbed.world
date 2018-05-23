@@ -17,7 +17,6 @@
         <material>
             <script>
                 <uri>file://media/materials/scripts/gazebo.material</uri>
-                <name>Gazebo/Orange</name>
             </script>
         </material>
     </include>
@@ -42,10 +41,16 @@
       <cast_shadows>true</cast_shadows>
     </light>
 
-    <!-- Walls -->
+    <!-- Walls apartment -->
     <include>
         <uri>file://isr-testbed/walls</uri>
         <pose>0.491830 0.433522 0 0 0 0</pose>
+    </include>
+
+    <!-- Walls outside -->
+    <include>
+        <uri>file://isr-testbed/wall</uri>
+        <pose>-1.19 1.86 0 0 0 0</pose>
     </include>
 
     <!-- Floor -->
@@ -56,10 +61,88 @@
 
     <!-- :::   Models   ::: -->
 
-        <!-- Man -->
+        <!-- Car -->
         <include>
+            <name>car</name>
+            <uri>file://isr-testbed/prius_hybrid</uri>
+            <pose>-7.7 1 0 0 0 0</pose>
+        </include>
+
+        <!-- Cone 1 -->
+        <include>
+            <name>cone1</name>
+            <uri>file://isr-testbed/construction_cone</uri>
+            <pose>-5.94 2.97 0 0 0 0</pose>
+        </include>
+     
+        <!-- Cone 2 -->
+        <include>
+            <name>cone2</name>
+            <uri>file://isr-testbed/construction_cone</uri>
+            <pose>-4.54 2.97 0 0 0 0</pose>
+        </include>
+
+       <!-- Cone 3 -->
+        <include>
+            <name>cone3</name>
+            <uri>file://isr-testbed/construction_cone</uri>
+            <pose>3.03 6.84 0 0 0 0</pose>
+        </include>
+
+        <!-- Cone 4 -->
+        <include>
+            <name>cone4</name>
+            <uri>file://isr-testbed/construction_cone</uri>
+            <pose>3.03 8.33 0 0 0 0</pose>
+        </include>
+
+        <!-- Table -->
+        <include>
+            <name>table_outside</name>
+            <uri>file://isr-testbed/cafe_table</uri>
+            <pose>-5.25 3.77 0 0 0 0</pose>
+        </include>
+
+        <!-- Fire Hydrant 1 -->
+        <include>
+            <name>hydrant1</name>
+            <uri>file://isr-testbed/fire_hydrant</uri>
+            <pose>1.01 9.45 0 0 0 0</pose>
+        </include>
+
+        <!-- Fire Hydrant 2 -->
+        <include>
+            <name>hydrant2</name>
+            <uri>file://isr-testbed/fire_hydrant</uri>
+            <pose>-4.0 9.45 0 0 0 0</pose>
+        </include>
+
+        <!-- Tree 1 -->
+        <include>
+            <name>tree1</name>
+            <uri>file://isr-testbed/pine_tree</uri>
+            <pose>-6.0 9.45 0 0 0 0</pose>
+        </include>
+
+        <!-- Tree 2 -->
+        <include>
+            <name>tree2</name>
+            <uri>file://isr-testbed/pine_tree</uri>
+            <pose>-9.11 6.25 0 0 0 0</pose>
+        </include>
+
+        <!-- Person >
+        <include>
+            <name>human</name>
             <uri>file://isr-testbed/homem</uri>
-            <pose>-2.1 -2.42 0 0 0 1.87</pose>
+            <pose>-0.57 -3.92 0 0 0 2.12</pose>
+        </include -->
+ 
+        <!-- Person -->
+        <include>
+            <name>human</name>
+            <uri>file://isr-testbed/person_standing</uri>
+            <pose>-2.04 2.41 0 0 0 0</pose>
         </include>
 
         <!-- Wardrobe -->
@@ -74,22 +157,42 @@
             <pose>2.0 -0.15 0.8 0 0 1</pose>
         </include>
 
+        <!-- Rice Box -->
+        <include>
+            <uri>file://isr-testbed/basmati_rice</uri>
+            <pose>-2.85 0.5 0.8 0 0 0</pose>
+        </include>
+
         <!-- Tea box -->
         <include>
             <uri>file://isr-testbed/tea_box</uri>
-            <pose>-2.85 1 2 0 0 0</pose>
+            <pose>-2.85 0.9 0.85 0 0 0</pose>
         </include>
 
         <!-- Beer -->
         <include>
             <uri>file://isr-testbed/beer</uri>
-            <pose>-2.85 0.5 1 0 0 1</pose>
+            <pose>-2.73 -2.64 0.6 0 0 1</pose>
         </include>
 
         <!-- Coke_can -->
         <include>
             <uri>file://isr-testbed/coke_can</uri>
-            <pose>-2.85 1.2 1 0 0 1</pose>
+            <pose>-2.85 1.2 0.85 0 0 1</pose>
+        </include>
+
+        <!-- Plastic Cup -->
+        <include>
+            <name>cup1</name>
+            <uri>file://isr-testbed/plastic_cup</uri>
+            <pose>-2.85 -2.40 0.45 0 0 1</pose>
+        </include>
+
+        <!-- Plastic Cup -->
+        <include>
+            <name>cup2</name>
+            <uri>file://isr-testbed/plastic_cup</uri>
+            <pose>1.83 -0.48 0.80 0 0 1</pose>
         </include>
 
         <!-- Shelf -->
@@ -107,7 +210,7 @@
         <!-- Plant floor small -->
         <include>
             <uri>file://isr-testbed/plant_floor_small</uri>
-            <pose>-2.8 -3.0 0 0 0 1.56</pose>
+            <pose>-2.84 -3.05 0 0 0 0</pose>
         </include>
 
         <!-- Apple Juice box -->
@@ -119,7 +222,7 @@
         <!-- Table bedside -->
         <include>
             <uri>file://isr-testbed/table_bedside</uri>
-            <pose>-2 1.5 0 0 0 0</pose>
+            <pose>-2.82 -2.48 0 0 0 0</pose>
         </include>
 
         <!-- bed -->
@@ -216,33 +319,33 @@
         <!-- sofa -->
         <include>
             <uri>file://isr-testbed/sofa</uri>
-            <pose>-0.733279 -0.912608 0 0 0 0</pose>
+            <pose>-0.76 -0.90 0 0 0 0</pose>
         </include>
 
         <!-- TV chair 1 -->
         <include>
             <uri>file://isr-testbed/tv_chair</uri>
             <name>chair1</name>
-            <pose>-0.99568 -2.19529 0 0 0 -1.7169</pose>
+            <pose>-0.73 -2.05 0 0 0 -1.57</pose>
         </include>
 
         <!-- TV chair 2 -->
         <include>
             <uri>file://isr-testbed/tv_chair</uri>
             <name>chair2</name>
-            <pose>-0.951652 0.416699 0 0 0 -1.39202</pose>
+            <pose>-0.73 0.57 0 0 0 -1.57</pose>
         </include>
 
         <!-- TV -->
         <include>
             <uri>file://isr-testbed/tv</uri>
-            <pose>-2.915693 -0.825711 0.035264 0 0 -0.035264</pose>
+            <pose>-2.85 -0.94 0.035264 0 0 -0.026</pose>
         </include>
 
         <!-- TV table -->
         <include>
             <uri>file://isr-testbed/tv_table</uri>
-            <pose>-2.84724 -0.94152 0 0 0 0</pose>
+            <pose>-2.81 -0.98 0 0 0 0</pose>
         </include>
 
         <!-- living room table -->

@@ -62,11 +62,11 @@
     <!-- :::   Models   ::: -->
 
         <!-- Car -->
-        <include>
+        <!--include>
             <name>car</name>
             <uri>file://isr-testbed/prius_hybrid</uri>
             <pose>-7.7 1 0 0 0 0</pose>
-        </include>
+        </include-->
 
         <!-- Cone 1 -->
         <include>

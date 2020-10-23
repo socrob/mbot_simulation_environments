@@ -29,6 +29,10 @@ Clone and compile the code into your catkin workspace:
         catkin build
         source ~/.bashrc
 
+Install dependencies:
+
+        sudo apt-get install ros-kinetic-cob-gazebo-objects -y
+
 Launch only the environment:
 
         roslaunch mbot_simulation_environments load_environment_example.launch

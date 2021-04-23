@@ -6,7 +6,7 @@ else
 fi
 
 # your ROS distribution
-DISTRO=kinetic
+DISTRO=melodic
 
 # create list of packages to install
 packagelist=(
